@@ -1,0 +1,58 @@
+<head>
+<title>Bolo's Schoology ID Grabber</title>
+<style type="text/css">
+/*CSS Created by MrTron @ Tron Inc.*/
+/*Only set up for Desktops*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color: #0F0D0F;
+    
+}
+h4, p {
+    text-align: center;
+    font-size: 25px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+button {
+    margin-left: 48%;
+    margin-right: 48%;
+    font-size: 25px;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 20px 20px;
+    position:fixed;bottom:0;left:0;right:0;height:10px;
+}
+.copyright {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    position: relative;	
+    top: -29px;
+}
+    </style>
+</head>
+<body>
+<center>
+    <img src="https://cdn.tronmc.com/img/BoliousHeart.png" style="width: 150px;">
+</center>
+<h2>Schoology ID Grabber</h2>
+            <h4>Version 1.1.1</h4>
+            <p>Subdomain: <input type="text" id="subinput"></p>
+            <p>Range: <input type="number" id="rangemin"> to <input type="number" id="rangemax"></p>
+            <p>Wait Time (ms): <input type="number" id="waitinput"></p>
+            <br>
+            <button onclick="start()">Start</button>
+            <br><br>
+            <button onclick="stop()">Stop</button>
+    <footer>
+        <p id="copyrightboi" class="copyright">&copy; 2021 BoloTech, Inc. All Rights Reserved.</p>
+    </footer>
+</body>
