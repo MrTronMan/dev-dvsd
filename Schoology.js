@@ -2,7 +2,7 @@
 document.write(`<head>
 <title>Bolo's Schoology ID Grabber</title>
 <style type="text/css">
-/*CSS Created by MrTron @ Tron Inc.*/
+/*CSS Created by MrTron @ https://mrtron.dev*/
 /*Only set up for Desktops*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 body {
